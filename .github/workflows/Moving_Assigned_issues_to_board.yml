@@ -20,4 +20,4 @@ jobs:
         with:
           project: Moving assigned issues
           column: In Progress
-          repo-token: ${{ secrets.MOVE_ASSIGNED_ISSUE_TO_BOARD }}
+          repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
