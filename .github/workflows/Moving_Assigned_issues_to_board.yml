@@ -20,4 +20,4 @@ jobs:
         with:
           project: Moving assigned issues
           column: In Progress
-          repo-token: ${{ secrets.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 }}
+          repo-token: ${{ secrets.MOVE_ASSIGNED_ISSUE_TO_BOARD }}
