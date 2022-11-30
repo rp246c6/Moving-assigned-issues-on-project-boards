@@ -14,10 +14,10 @@ on:
       - assigned
 jobs:
   move-assigned-card:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
         with:
-          project: Docs Work
+          project: Moving assigned issues
           column: In Progress
-          repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repo-token: ${{ secrets.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 }}
